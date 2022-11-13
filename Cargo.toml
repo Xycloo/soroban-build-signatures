@@ -1,0 +1,12 @@
+[package]
+name = "soroban-build-sig"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+soroban-sdk = { version = "0.1.0", features = ["testutils"] }
+soroban-auth = { version = "0.1.0", features = ["testutils"] }
+stellar-strkey = "0.0.6"
+ed25519-dalek = "1.0.1"
+rand = { version = "0.7.3"}
